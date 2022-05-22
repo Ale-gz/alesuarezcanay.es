@@ -1,0 +1,1 @@
+let a = prompt("Escribe tu nombre");

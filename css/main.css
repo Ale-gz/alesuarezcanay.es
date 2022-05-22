@@ -4,6 +4,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-size: 20px;
+background-image: url("img/avatar4.jpg");
 }
 
 #content {
@@ -13,6 +14,8 @@ html, body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
+            background-image: url("img/avatar4.jpg");
+
 }
 
 .avatar {
@@ -26,15 +29,14 @@ html, body {
 }
 
 img.avatar {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
 img.avatar:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
+
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 img { 
@@ -47,8 +49,9 @@ body {
     font-style: normal;
     margin:0;
     padding:0;
-    background-color:#E8E8E8;
-    color:#282828;
+        background-image: url("avatar4.jpg");
+    /*background-color:#E8E8E8;
+    color:#282828;*/
 }
 
 .header {
@@ -60,6 +63,8 @@ body {
 
 .content {
     margin-bottom: 5%;
+            background-image: url("img/avatar4.jpg");
+
 }
 
 blockquote img {
@@ -86,19 +91,11 @@ blockquote img {
 @media (prefers-color-scheme: dark) {
 
     body {
-        background-color:#24282A;
-        color:#CFCBC4;
+        /*background-color:#08747F;
+        color:#CFCBC4;*/
     }
 
-    img {
-        opacity: .75;
-        transition: opacity .5s ease-in-out;
-    }
-
-    img:hover {
-        opacity: 1;
-    }
-
+    
     .mdi {
         color: #D0CBC4;
     }
