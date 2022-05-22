@@ -95,6 +95,12 @@ blockquote img {
         color:#CFCBC4;*/
                     background-image: url("avatar4.jpg");
 
+
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
     }
 
     
