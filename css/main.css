@@ -47,9 +47,9 @@ body {
     font-style: normal;
     margin:0;
     padding:0;
-        background-image: url("avatar4.jpg");
-    /*background-color:#E8E8E8;
-    color:#282828;*/
+        /*background-image: url("avatar4.jpg");*/
+    background-color:#E8E8E8;
+    color:#E8E8E8;
 }
 
 .header {
@@ -88,16 +88,11 @@ blockquote img {
 @media (prefers-color-scheme: dark) {
 
     body {
-        /*background-color:#08747F;
-        color:#CFCBC4;*/
-                    background-image: url("avatar4.jpg");
+        background-color:#282828;
+        color:#CFCBC4;
+                    /*background-image: url("avatar4.jpg");*/
 
 
-
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
     }
 
     
