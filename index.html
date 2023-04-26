@@ -1,36 +1,120 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Alejandro</title>
-        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/main.css" type="text/css"/>
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/inter-ui" type="text/css"/>
-        <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
-
-    </head>
-
-            <script type="text/javascript" src="javascript/main.js"></script>
-
-
-<script type="text/javascript" src="javascript/main2.js"></script>
-
-
-            <script>  
-        	$(document).ready(function(){
-    $("#content").fadeIn();
-    $("#content").fadeIn("slow");
-    $("#content").fadeIn(8000);
-  });
-            </script>
-
-    <body>
-        <div id="content">
-            <img src="img/avatar3.webp" alt="Avatar" class="avatar" onContextMenu="return false;"/>
-            Bienvenido!!<p>
-            <a href="mailto:ale@alesuarezcanay.es" target="_blank" alt="Email" title="Email"><i class="mdi mdi-email"></i></a>
-            <a href="https://www.linkedin.com/in/alejandro-su%C3%A1rez-canay-53062b155/" target="_blank" alt="LinkedIn" title="LinkedIn"><i class="mdi mdi-linkedin"></i></a>
-            <a href="https://github.com/Ale-gz/" target="_blank" alt="GitHub" title="GitHub"><i class="mdi mdi-github"></i></a>
-        </div>
-    </body>
-</html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currículum - Alejandro Suárez Canay</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2;
+			color: #333;
+			line-height: 1.5;
+		}
+		
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			position: relative;
+		}
+		
+		#profile-img {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			object-fit: cover;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+		
+		section {
+			padding: 20px;
+			margin: 20px;
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		
+		h1, h2, h3 {
+			margin-top: 0;
+			font-weight: normal;
+		}
+		
+		h1 {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		
+		h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		
+		h3 {
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		li {
+			margin-bottom: 5px;
+		}
+		
+		.skill-filters {
+			margin-bottom: 20px;
+		}
+		
+		.filter-btn {
+			padding: 5px 10px;
+			background-color: #fff;
+			color: #333;
+			border: 1px solid #333;
+			border-radius: 20px;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+		
+		.filter-btn.active {
+			background-color: #333;
+			color: #fff;
+		}
+		
+		.skills {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		
+		.skill {
+			margin-right: 10px;
+			margin-bottom: 10px;
+			padding: 5px 10px;
+			background-color: #f2f2f2;
+			border-radius: 20px;
+			display: none;
+		}
+		
+		.skill.active {
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img id="profile-img" src="profile-image.jpg" alt="Foto de perfil">
+		<h1>Alejandro Suárez Canay</h1>
+		<p>Administrador de Red de la Xunta de Galicia</p>
+	</header>
+	
+	<main>
+		<section class="section">
+			<h2>Perfil</h2>
+			<p>Mi nombre es Alejandro Suárez Canay y soy un administrador de red con más de 5 años de experiencia trabajando en la Xunta de Galicia. Soy experto en la
